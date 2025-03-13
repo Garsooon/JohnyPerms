@@ -11,6 +11,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
   <repositories>
@@ -54,12 +56,9 @@
         <configuration>
           <archive>
             <manifestEntries>
-              <Main-Class>org.bukkit.craftbukkit.Main</Main-Class>
-              <Implementation-Title>Project-Posiden</Implementation-Title>
+              <Main-Class>com.johnyperms.JohnyPerms</Main-Class>
+              <Implementation-Title>JohnyPerms</Implementation-Title>
               <Implementation-Vendor>RhysB</Implementation-Vendor>
-              <Specification-Title>Bukkit</Specification-Title>
-              <Specification-Version>${api.version}</Specification-Version>
-              <Specification-Vendor>Bukkit Team</Specification-Vendor>
               <Sealed>true</Sealed>
             </manifestEntries>
             <manifestSections>
